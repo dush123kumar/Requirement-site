@@ -1,0 +1,164 @@
+:root{
+    --header-color: #37517e;
+    --header-font-color: aliceblue;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--header-color);
+    padding: 10px 80px;
+    color:var(--header-font-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-title{
+    font-size: 1.8rem;
+}
+
+nav{
+    min-width: 500px;
+    display: inline-block;
+    font-size: large;
+}
+
+nav a{
+    display: inline-block;
+    color: var(--header-font-color);
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+section{
+    padding: 10px 80px;
+    font-size: medium;
+}
+
+section:nth-of-type(2){
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.content{
+    max-width: 400px;
+    color: #000;
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+.img-main{
+    width: 500px;
+}
+
+.img-desc{
+    width: 500px;
+}
+
+#main-title{
+    display: block;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.small-bar{
+    display: block;
+    width: 500px;
+    border-top: 1px solid var(--header-color);
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.button1{
+    font-size: 1.4rem;
+    padding: 10px 30px;
+    background-color: var(--header-color);
+    color: var(--header-font-color);
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+#review-bar{
+    font-size: 1.6rem;
+}
+
+footer{
+    border-top: 1px solid var(--header-color);
+    background-color: #e8ecf0;
+    padding: 30px 50px;
+    color: #000;
+    font-size: large;
+}
+
+.flex-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer span{
+    margin-right: 20px;
+}
+
+footer form{
+    min-width: 500px;
+    padding: 20px 30px;
+    margin-left: 80px;
+}
+
+footer div{
+    font-size: 1.4rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer div:first-of-type{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+form input{
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+    border: 1px solid var(--header-color);
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+footer button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--header-color);
+    color: #cdcecf;
+    font-size: large;
+    border: none;
+    border-radius: 30px;
+}
+
+footer i{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+.tab{
+    margin-left: 150px;
+}
+
+hr{
+    border-color: var(--header-color);
+}
